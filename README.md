@@ -1,70 +1,15 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Assiment 8 related task
+রিভিশন চেকলিস্ট 
+১.নিজে কিছু একটা বানানোর চেষ্টা করো। নিজেই ফেইক ডাটা বানিয়ে ফেলো। হতে পারে কিছু সুপারহিরো থাকবে বা কিছু বই থাকবে। সেখান থেকে তুমি ক্লিক করে করে শর্টলিস্ট করবে। টিম বানাবে। সেটার জন্য নিজে নিজে ডাটা বানিয়ে ফেলো।   
+২. ওয়েবসাইট এ একটা হেডার দিয়ে দাও। তোমার ইচ্ছা মতো একটা দিয়ে দাও। এইটার জন্য বেশি সময় দিও না। তবে আলাদা একটা কম্পোনেন্ট বানাও 
+৩. এক একজন খেলোয়াড় বা সুপার হিরো বা বই এর জন্য একটা করে কার্ড থাকবে। নাম থাকবে। ছবি থাকবে। আরো কিছু তথ্য থাকবে। তার স্যালারি, ফি বা দাম লেখা থাকবে। 
+৪. কোন একটা প্লেয়ার, বই বা হিরোতে এ ক্লিক করলে সেই প্লেয়ার এর নাম ডানপাশে যোগ হয়ে যাবে। অনেকটা ema-john এর ডানপাশে যে শপিং কার্ট ছিল (যেখানে টোটাল দেখানো হতো ) সেখানে টোটাল দেখাবে। 
+৫. যে বাটনে ক্লিক করবে সেই বাটনে font awesome দিয়ে কোন একটা আইকন যোগ করো। 
+৬. তোমার ওয়েবসাইট এর কোড তোমার গিটহাব এ রাখবে। এবং সাইট নেটলিফাই বা অন্য কোথাও হোস্ট করে লাইভ লিংক তৈরি করবে। 
+.
+৭. কিছু জিনিস খেয়াল রাখবে। ফোল্ডার স্ট্রাকচার , কম্পোনেন্ট এর নাম, ডাটা কিভাবে পাঠাচ্ছ। স্টেট্ কোথায় ডিক্লেয়ার করতেছো। destructuring ইউজ করতেছো কিনা। 
+.
+৮. React এর বেসিক সিম্পল কনসেপ্টগুলো কনফিউশন আছে সেগুলা দূর করতে পারো।  props, state, ইভেন্ট হ্যান্ডেল করার সিস্টেম, ইভেন্ট হ্যান্ডেল করার সময় ডাটা পাঠানোর সিস্টেম, 
+৯. অনেক ভাবে ডাটা লোড করার সিস্টেম প্রাকটিস করো। নিজের বানানো ফেইক ডাটা। সময় থাকলে sportsdb থেকে ডাটা লোড করে দেখার চেষ্টা করো।  
+.
+১০. এসাইনমেন্ট ৬ এ যে প্রজেক্ট করেছো সেটাই রিএক্ট দিয়ে করে ফেলো||
