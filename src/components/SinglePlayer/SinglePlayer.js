@@ -11,6 +11,23 @@ const SinglePlayer = ({ player, order, setOrder}) => {
           company,
           quantity: 1
         };
+        const prevStored = localStorage.getItem("cart");
+        const oldStored = JSON.parse(prevStored);
+        if(oldStored){
+          const isExist = oldStored.find(item => item.price === price);
+          if(isExist){
+            const updatePrice = parseInt(isExist.price);
+            const newPrice = updatePrice + updatePrice;
+            isExist.price = newPrice;
+            localStorage.setItem("cart", JSON.stringify(oldStored));
+          }
+          else{
+            localStorage.setItem("cart", JSON.stringify([...oldStored, info]));
+          }
+        }
+        else{
+          localStorage.setItem("cart", JSON.stringify([info]));
+        }
         if(order){
             setOrder([...order, info]);
             return;
@@ -18,7 +35,9 @@ const SinglePlayer = ({ player, order, setOrder}) => {
         else{
             setOrder([info])
             return;
-        }
+        };
+        
+
     }
     
   return (
