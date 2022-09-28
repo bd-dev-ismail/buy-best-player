@@ -5,10 +5,15 @@ import './Players.css';
 const Players = () => {
     const [players, setPlayers] = useState([]);
     const [order, setOrder] = useState([]);
+    
     useEffect(()=>{
         fetch('players.json')
         .then(res=>res.json())
-        .then(data => setPlayers(data))
+        .then(data => setPlayers(data));
+        const neworder = JSON.parse(localStorage.getItem("cart"));
+        if(neworder){
+          setOrder(neworder);
+        }
     },[]);
     return (
       <div className="control-player-cart py-8 container mx-auto">
@@ -26,10 +31,13 @@ const Players = () => {
           <h3 className=" sticky top-0 text-center text-2xl font-bold py-2">
             Order Summary
           </h3>
-          <div className='sticky top-8'>
+          <div className="sticky top-8">
             {order.map((item) => (
-              <Cart item={item}  key={item.id}></Cart>
+              <Cart item={item} key={item.id}></Cart>
             ))}
+            <p className="text-white p-4 text-xl font-bold">
+              Total Price : {order.reduce((prev, current) => prev + current.price, 0)}
+            </p>
           </div>
         </div>
       </div>
